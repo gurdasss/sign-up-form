@@ -4,11 +4,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sign Up!</title>
-    <!-- 1. LINK NORMALIZE.CSS FIRST -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
-    />
 
     <link rel="stylesheet" href="style.css" />
   </head>
@@ -29,7 +24,145 @@
           alt="Leaf background."
         />
       </div>
-      <div class="content"></div>
+      <div class="content">
+        <div class="content__info">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque
+          voluptates nulla voluptatum ab enim ipsa, facilis eius amet, fuga sint
+          repellat. Quas officiis ullam dolores dolor minus, inventore
+          recusandae distinctio porro voluptates similique quam magnam nisi
+          mollitia eos, beatae asperiores corrupti autem! Placeat aliquam quidem
+          reprehenderit voluptates quis quisquam quasi excepturi iusto, ducimus
+          pariatur et ratione minima omnis perspiciatis autem qui velit! Porro
+          possimus dolorum fuga deleniti eveniet odio libero itaque facilis
+          doloribus, amet voluptates.
+
+          <br />
+
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis,
+          repellat!
+          <div class="content_info__title">Let's do this!</div>
+        </div>
+
+        <form action="#" method="post">
+          <!-- First Form Container Starts HERE -->
+
+          <div class="form__container">
+            <div class="form__container____input-filed">
+              <label
+                for="first_name"
+                class="form__container____input-filed__label"
+              >
+                First Name:</label
+              >
+              <br />
+              <input
+                class="form__container____input-filed__input-box"
+                type="text"
+                name="first_name"
+                id="first_name"
+                required
+              />
+            </div>
+
+            <div class="form__container____input-filed">
+              <label for="email" class="form__container____input-filed__label">
+                Email:</label
+              >
+              <br />
+              <input
+                class="form__container____input-filed__input-box"
+                type="email"
+                name="email"
+                id="email"
+                required
+                placeholder="you@gmail.com"
+              />
+            </div>
+
+            <div class="form__container____input-filed">
+              <label
+                for="password"
+                class="form__container____input-filed__label"
+              >
+                Password:</label
+              >
+              <br />
+              <input
+                class="form__container____input-filed__input-box"
+                type="password"
+                name="password"
+                id="password"
+                required
+              />
+            </div>
+
+            <button class="form__container__submit-btn" type="submit">
+              Create Account
+            </button>
+
+            <div class="form__container__cta">
+              Already have an account?
+              <a href="#" target="_blank" rel="noopener noreferrer">Log in</a>
+            </div>
+          </div>
+
+          <!-- First Form Container Ends HERE -->
+
+          <!-- Second Form Container Starts HERE -->
+
+          <div class="form__container">
+            <div class="form__container____input-filed">
+              <label
+                for="last_name"
+                class="form__container____input-filed__label"
+              >
+                Last Name:</label
+              >
+              <br />
+              <input
+                class="form__container____input-filed__input-box"
+                type="text"
+                name="last_name"
+                id="last_name"
+                required
+              />
+            </div>
+
+            <div class="form__container____input-filed">
+              <label for="phone" class="form__container____input-filed__label">
+                Phone Number:</label
+              >
+              <br />
+              <input
+                class="form__container____input-filed__input-box"
+                type="text"
+                name="phone"
+                id="phone"
+                required
+              />
+            </div>
+
+            <div class="form__container____input-filed">
+              <label
+                for="confirm_password"
+                class="form__container____input-filed__label"
+              >
+                Confirm Password:</label
+              >
+              <br />
+              <input
+                class="form__container____input-filed__input-box"
+                type="password"
+                name="confirm_password"
+                id="confirm_password"
+                required
+              />
+            </div>
+          </div>
+
+          <!-- Second Form Container Ends HERE -->
+        </form>
+      </div>
     </main>
   </body>
 </html>

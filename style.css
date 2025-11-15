@@ -62,8 +62,15 @@ main {
 }
 
 .content__info {
-  flex: auto;
+  /* flex: auto; */
+  /* margin-bottom: 4%; */
   padding: 4%;
+}
+
+.content_info__title{
+  font-size: larger;
+  font-weight: 525;
+  margin-top: 8%;
 }
 
 form {
@@ -83,3 +90,13 @@ form {
   margin: 4%;
 }
 
+.form__container____input-filed {
+  margin: 2%;
+}
+
+.form__container____input-filed__input-box:invalid{
+  border-color: red;
+}
+.form__container____input-filed__input-box:valid{
+  border-color: lightblue;
+}
